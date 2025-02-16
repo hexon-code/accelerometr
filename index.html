@@ -15,25 +15,43 @@
     <table border="1">
         <thead>
             <tr>
-                <th>ID</th>
-                <th>X Acceleration</th>
-                <th>Y Acceleration</th>
-                <th>Z Acceleration</th>
-                <th>X Rotation Acceleration</th>
-                <th>Y Rotation Acceleration</th>
-                <th>Z Rotation Acceleration</th>
-                <th>X Position</th>
-                <th>Y Position</th>
-                <th>Z Position</th>
-                <th>X Speed</th>
-                <th>Y Speed</th>
-                <th>Z Speed</th>
-                <th>X Rotation Speed</th>
-                <th>Y Rotation Speed</th>
-                <th>Z Rotation Speed</th>
+                <th>Type</th>
+                <th>X</th>
+                <th>Y</th>
+                <th>Z</th>
             </tr>
         </thead>
-        <tbody id="dataTable">
+        <tbody>
+            <tr>
+                <td>Current Acceleration</td>
+                <td id="currentXAccel">0</td>
+                <td id="currentYAccel">0</td>
+                <td id="currentZAccel">0</td>
+            </tr>
+            <tr>
+                <td>Current Rotation</td>
+                <td id="currentXRot">0</td>
+                <td id="currentYRot">0</td>
+                <td id="currentZRot">0</td>
+            </tr>
+            <tr>
+                <td>Max Acceleration</td>
+                <td id="maxXAccel">0</td>
+                <td id="maxYAccel">0</td>
+                <td id="maxZAccel">0</td>
+            </tr>
+            <tr>
+                <td>Max Rotation</td>
+                <td id="maxXRot">0</td>
+                <td id="maxYRot">0</td>
+                <td id="maxZRot">0</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td id="xPos">0</td>
+                <td id="yPos">0</td>
+                <td id="zPos">0</td>
+            </tr>
         </tbody>
     </table>
 
